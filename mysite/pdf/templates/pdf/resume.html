@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>{{ profile.name }}</h2>
+    <h2>{{ profile.email }}</h2>
+    <h2>{{ profile.phone }}</h2><hr/>
+    <br>
+    <p>Summary</p>
+    <p>{{profile.summary}}</p><hr/>
+    <p>Previous Work</p>
+    <p>{{profile.previous_work}}</p><hr/>
+    <p>Skills</p>
+    <p>{{profile.skills}}</p><hr/>
+    <ul>
+        <li>School : {{ profile.school}}</li>
+        <li>{{ profile.degree }} from {{ profile.university}}</li>
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
